@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.flowers {
+    width: 80%;
+}
+
+.row>div {
+    aspect-ratio: 1;
+    background-color: green;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: -1px;
+}
+
+.church {
+    background-image: url(../img/CHURCH\ -\ NIGHT.png);
+}
+
+.row .ground {
+    background-image: url(../img/ground.png);
+    background-size: cover;
+}
+
+
+.house-1 {
+    background-image: url(../img/house1.png);
+}
+
+.house-2 {
+    background-image: url(../img/house2.png);
+}
+
+.center {
+    background-image: url(../img/center.png);
+}
+
+.shop {
+    background-image: url(../img/shop.png);
+}
+
+.tree {
+    background-image: url(../img/TREE\ 1\ -\ NIGHT.png);
+}
+
+.row .road {
+    background-image: url(../img/road_tile.png);
+    background-size: cover;
+    background-color: gray;
+}
+
+.row .road-top {
+    background-image: url(../img/road_top_tile.png);
+    background-size: cover;
+}
+
+.row .road-bottom {
+    background-image: url(../img/road_tile_bottom.png);
+    background-size: cover;
+}
+
+.row .lake-left {
+    background-image: url(../img/lake.png);
+    background-size: 115%;
+    background-position-x: left;
+}
+
+.row .lake-right {
+    background-image: url(../img/lake.png);
+    background-size: 115%;
+    background-position-x: right;
+}
